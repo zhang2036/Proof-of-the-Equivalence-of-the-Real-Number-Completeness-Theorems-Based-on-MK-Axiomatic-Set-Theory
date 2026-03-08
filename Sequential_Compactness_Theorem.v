@@ -7,9 +7,9 @@
 (*              Ce Zhang, Guowei Dou and Wensheng Yu                  *)
 (**********************************************************************)
 
-(** MK_Structure1 *)
+(** Sequential_Compactness_Theorem *)
 
-Require Export Sequential_Compactness_Theorem.
+Require Export Archimedean_Theorems2.
 
 Definition BoundedSeq x:= IsSeq x /\
   (∃ M, M ∈ RC /\ (∀ n, n ∈ Nat -> |(x[n])| ≤ M)).
